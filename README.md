@@ -195,17 +195,5 @@ npx hardhat run scripts/deploy.js --network sepolia
 - Reference `results/mv_did_convergence.json` for exact numbers
 - Discuss scalability from convergence curves
 
-### LaTeX Integration
-```latex
-% Include figures
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.8\columnwidth]{results/figures/fig1_gas_vs_quorum.pdf}
-\caption{BFT-SH-DID: Gas cost scales linearly with quorum size (2f+1).}
-\label{fig:gas_cost}
-\end{figure}
 
-% Include results table
-\input{results/figures/results_table.tex}
-```
 
