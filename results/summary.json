@@ -1,0 +1,138 @@
+{
+  "sh_did_gas_summary": [
+    {
+      "f": 1,
+      "quorum": 3,
+      "gas": 88000.0
+    },
+    {
+      "f": 2,
+      "quorum": 5,
+      "gas": 100000.0
+    },
+    {
+      "f": 3,
+      "quorum": 7,
+      "gas": 112000.0
+    },
+    {
+      "f": 5,
+      "quorum": 11,
+      "gas": 136000.0
+    },
+    {
+      "f": 10,
+      "quorum": 21,
+      "gas": 196000.0
+    },
+    {
+      "f": 15,
+      "quorum": 31,
+      "gas": 256000.0
+    }
+  ],
+  "sh_did_latency_summary": [
+    {
+      "behavior": "none",
+      "latency_seconds": 797.3460194879793,
+      "success_rate": 1.0
+    },
+    {
+      "behavior": "delay",
+      "latency_seconds": 778.0327599272827,
+      "success_rate": 1.0
+    }
+  ],
+  "mv_did_convergence_summary": [
+    {
+      "n": 10,
+      "f": 0,
+      "rounds": 2.0,
+      "messages": 100.0
+    },
+    {
+      "n": 10,
+      "f": 1,
+      "rounds": 1.7,
+      "messages": 85.0
+    },
+    {
+      "n": 10,
+      "f": 2,
+      "rounds": 1.5,
+      "messages": 75.0
+    },
+    {
+      "n": 20,
+      "f": 0,
+      "rounds": 2.1,
+      "messages": 210.0
+    },
+    {
+      "n": 20,
+      "f": 2,
+      "rounds": 2.1,
+      "messages": 210.0
+    },
+    {
+      "n": 20,
+      "f": 4,
+      "rounds": 1.8,
+      "messages": 180.0
+    },
+    {
+      "n": 30,
+      "f": 0,
+      "rounds": 2.2,
+      "messages": 330.0
+    },
+    {
+      "n": 30,
+      "f": 3,
+      "rounds": 2.1,
+      "messages": 315.0
+    },
+    {
+      "n": 30,
+      "f": 6,
+      "rounds": 2.1,
+      "messages": 315.0
+    },
+    {
+      "n": 50,
+      "f": 0,
+      "rounds": 2.3,
+      "messages": 575.0
+    },
+    {
+      "n": 50,
+      "f": 5,
+      "rounds": 2.2,
+      "messages": 550.0
+    },
+    {
+      "n": 50,
+      "f": 10,
+      "rounds": 2.0,
+      "messages": 500.0
+    },
+    {
+      "n": 100,
+      "f": 0,
+      "rounds": 2.6,
+      "messages": 1300.0
+    },
+    {
+      "n": 100,
+      "f": 10,
+      "rounds": 2.4,
+      "messages": 1200.0
+    },
+    {
+      "n": 100,
+      "f": 20,
+      "rounds": 2.0,
+      "messages": 1000.0
+    }
+  ]
+}
