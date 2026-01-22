@@ -165,7 +165,7 @@ results/
     └── results_table.tex        # LaTeX table for paper
 ```
 
-## 🔬 Smart Contract Deployment (Optional)
+## 🔬 Smart Contract Deployment
 
 To deploy the BFT-SH-DID contract on Ethereum Sepolia testnet:
 
@@ -209,63 +209,3 @@ npx hardhat run scripts/deploy.js --network sepolia
 \input{results/figures/results_table.tex}
 ```
 
-## ⚠️ Important Notes
-
-### Addressing Reviewer Comments
-
-This implementation **directly addresses** the reviewer's major concerns:
-
-1. ✅ **"Evaluation is mismatched"**  
-   → We now measure the *actual protocols* (BFT-SH-DID and BFT-MV-DID), not just basic DID operations
-
-2. ✅ **"No measurements of novel protocols"**  
-   → Complete experimental framework for both protocols with 5 experiments
-
-3. ✅ **"Figures are placeholders"**  
-   → All 7 figures are now generated from real experimental data
-
-4. ✅ **"No comparison with baselines"**  
-   → Direct quantitative comparison with Gnosis Safe and Argent
-
-### Limitations
-
-- **Simulation-based:** BFT-MV-DID is simulated (not deployed on-chain)
-- **Gas estimates:** BFT-SH-DID gas costs are estimated (deploy contract for exact measurements)
-- **Ethereum timing:** Finality times are based on current Ethereum parameters
-
-### Future Extensions
-
-- Deploy and test on actual Ethereum mainnet
-- Implement privacy-preserving features (zero-knowledge proofs)
-- Add Layer-2 scaling integration (Optimism, Arbitrum)
-- Formal verification with tools like Certora
-
-## 📚 Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{yourname2025bft,
-  title={Byzantine Fault Tolerant Decentralized Identity for Autonomous AI Agents},
-  author={Your Name et al.},
-  journal={Journal/Conference Name},
-  year={2025}
-}
-```
-
-## 📞 Support
-
-For questions or issues:
-- Open an issue on GitHub
-- Contact: [your-email@institution.edu]
-
-## 🎓 Academic Context
-
-This implementation is designed for **rigorous academic evaluation** and addresses all reviewer concerns about:
-- Experimental rigor (statistical analysis, multiple trials)
-- Reproducibility (complete code, clear parameters)
-- Comparison with baselines (quantitative evaluation)
-- Practical feasibility (real gas costs, actual latency)
-
-**Ready for camera-ready submission!** 📄
-# BFT_DID_Implimentation
